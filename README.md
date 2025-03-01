@@ -2,6 +2,7 @@
 Gameplay - Python
 
 How to Play:
+0. Run __init__.py
 1. Control Both Players
   - You control both the blue and orange players.
   - The active player (the one you're currently controlling) is marked by a white square at its head.
