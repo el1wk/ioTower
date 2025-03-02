@@ -129,7 +129,7 @@ def aboutScreenVars(data):
 def drawAboutScreen(canvas, data):
     #background of about screen
     canvas.create_rectangle(0,0, data.width, data.height, fill = data.highlightColor)
-    canvas.create_text(data.width//2, data.height//2, text = "Game created by Eli King for 15-112 Summer 2019.", font = "Helvetica 20")
+    canvas.create_text(data.width//2, data.height//2, text = "Game created by Eli King.", font = "Helvetica 20")
     canvas.create_rectangle(10, 10, 50, 50)
     canvas.create_text(30, 30, text = "'' B ''", font = "Helvetica 15")
 
@@ -244,5 +244,4 @@ def run(width, height):
     root.mainloop()  # blocks until window is closed
     print("bye!")
 
-startScreen()
 drawBoard()
